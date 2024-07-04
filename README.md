@@ -2,7 +2,7 @@
 
 ## Cấu trúc dataset
 - Vào thư mục dataset rồi xem
-- 
+  
 ## Sửa các file sau:
 - config.yaml:
   - sửa đường dẫn TRAIN_PATH, TEST_PATH và CHECKPOINT
@@ -12,7 +12,7 @@
   - line 172: sửa đường dẫn file config.yaml
 - ./src/segment_anything/build_sam:
   - line 104: sửa đường dẫn checkpoint
-  - Tải file checkpoint
+  - Tải file checkpoint để cùng thư mục LoRA-SAM
 ```bash
 wget https://dl.fbaipublicfiles.com/segment_anything/sam_vit_b_01ec64.pth
 ```
