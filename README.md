@@ -10,7 +10,7 @@
   - line 23: sửa đường dẫn file config.yaml
 - ./src/lora.py:
   - line 172: sửa đường dẫn file config.yaml
-- ./src/segment_anything/build_sam:
+- ./src/segment_anything/build_sam.py:
   - line 104: sửa đường dẫn checkpoint
   - Tải file checkpoint để cùng thư mục LoRA-SAM
 ```bash
